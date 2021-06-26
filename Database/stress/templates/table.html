@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table</title>
+  </head>
+  <body>
+    <table>
+    <tr>
+      <th>Stress Value</th>
+      <th>Date and Time</th>
+    </tr>
+    {% for stress in data %}
+    <tr>
+      {% for i in stress %}
+        <td>{{i}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+  </body>
+</html>

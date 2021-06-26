@@ -1,0 +1,62 @@
+Collecting dlib
+  Using cached https://files.pythonhosted.org/packages/99/2c/ef681c1c717ace11040f9e99fe22dafc843cdd6085eb6120e7ab2a5c662b/dlib-19.21.1.tar.gz
+Installing collected packages: dlib
+  Running setup.py install for dlib: started
+    Running setup.py install for dlib: finished with status 'error'
+    Complete output from command c:\users\mohan\onedrive\desktop\stress-detector-master\face\scripts\python.exe -u -c "import setuptools, tokenize;__file__='C:\\Users\\mohan\\AppData\\Local\\Temp\\pip-build-rn1xvgic\\dlib\\setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record C:\Users\mohan\AppData\Local\Temp\pip-f3gc0u29-record\install-record.txt --single-version-externally-managed --compile --install-headers c:\users\mohan\onedrive\desktop\stress-detector-master\face\include\site\python3.6\dlib:
+    running install
+    running build
+    running build_py
+    package init file 'tools\python\dlib\__init__.py' not found (or not a regular file)
+    running build_ext
+    Building extension for Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)]
+    Invoking CMake setup: 'cmake C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\build\lib.win-amd64-3.6 -DPYTHON_EXECUTABLE=c:\users\mohan\onedrive\desktop\stress-detector-master\face\scripts\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\build\lib.win-amd64-3.6 -A x64'
+    -- Building for: Visual Studio 15 2017
+    -- The C compiler identification is unknown
+    -- The CXX compiler identification is unknown
+    CMake Error at CMakeLists.txt:14 (project):
+      No CMAKE_C_COMPILER could be found.
+    
+    
+    
+    CMake Error at CMakeLists.txt:14 (project):
+      No CMAKE_CXX_COMPILER could be found.
+    
+    
+    
+    -- Configuring incomplete, errors occurred!
+    See also "C:/Users/mohan/AppData/Local/Temp/pip-build-rn1xvgic/dlib/build/temp.win-amd64-3.6/Release/CMakeFiles/CMakeOutput.log".
+    See also "C:/Users/mohan/AppData/Local/Temp/pip-build-rn1xvgic/dlib/build/temp.win-amd64-3.6/Release/CMakeFiles/CMakeError.log".
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\setup.py", line 262, in <module>
+        'Topic :: Software Development',
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\core.py", line 148, in setup
+        dist.run_commands()
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\dist.py", line 955, in run_commands
+        self.run_command(cmd)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "c:\users\mohan\onedrive\desktop\stress-detector-master\face\lib\site-packages\setuptools\command\install.py", line 61, in run
+        return orig.install.run(self)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\command\install.py", line 545, in run
+        self.run_command('build')
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\command\build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\distutils\dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\setup.py", line 135, in run
+        self.build_extension(ext)
+      File "C:\Users\mohan\AppData\Local\Temp\pip-build-rn1xvgic\dlib\setup.py", line 172, in build_extension
+        subprocess.check_call(cmake_setup, cwd=build_folder)
+      File "C:\Users\mohan\AppData\Local\Programs\Python\Python36\lib\subprocess.py", line 291, in check_call
+        raise CalledProcessError(retcode, cmd)
+    subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\mohan\\AppData\\Local\\Temp\\pip-build-rn1xvgic\\dlib\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\mohan\\AppData\\Local\\Temp\\pip-build-rn1xvgic\\dlib\\build\\lib.win-amd64-3.6', '-DPYTHON_EXECUTABLE=c:\\users\\mohan\\onedrive\\desktop\\stress-detector-master\\face\\scripts\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\mohan\\AppData\\Local\\Temp\\pip-build-rn1xvgic\\dlib\\build\\lib.win-amd64-3.6', '-A', 'x64']' returned non-zero exit status 1.
+    
+    ----------------------------------------
