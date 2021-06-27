@@ -22,12 +22,12 @@ $ pip3 install -r requirements.txt
 $ python3 app.py runserver
 ```
 
-## Contributors
-## <a href="https://github.com/<Contributor>">Harshini Raju</a>
+# Contributors
+# <a href="https://github.com/<Contributor>">Harshini Raju</a>
 
-## License
+# License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-##<p align="center">
-##	With :heart: by <a href="https://www.codechefvit.com" target="_blank">CodeChef-VIT</a>
+#<p align="center">
+#	With :heart: by <a href="https://www.codechefvit.com" target="_blank">CodeChef-VIT</a>
 </p>
